@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "swapnilkumar.in",
+    "description": "",
+    "home_page_url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in",
+    "feed_url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/feed.json",
+    "user_comment": "",
+    "icon": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/website/logo.png",
+    "author": {
+        "name": "Swapnil Kumar"
+    },
+    "items": [
+    ]
+}
