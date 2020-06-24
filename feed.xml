@@ -17,7 +17,7 @@
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-06-24T20:23:14+05:30</updated>
+        <updated>2020-06-24T20:36:39+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;
@@ -28,7 +28,7 @@
                 <h2>hello friends,</h2>
 <p>glad to see you here, the app is basically to aware on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>
 <p>i will cover the implementation as well with most of the approaches using mostly the open source tools. </p>
-<hr>
+<p>so lets start with the first article on devOps <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/">here</a></p>
 <p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>
 <p><a href="https://soundcloud.com/souplazyfeelrecording"><img loading="lazy" src="media/files/soundcloud.png" data-is-external-image="true"  width="40px" height="40px"></a>   <a href="https://medium.com/@swapnilkr"> <img loading="lazy" src="media/files/medium.png" data-is-external-image="true"  width="40px" height="40px"></a>    <a href="https://www.linkedin.com/in/swapnilkr/"><img loading="lazy" src="media/files/linkedin.png" data-is-external-image="true"  width="40px" height="40px"></a></p>
             ]]>
@@ -42,15 +42,15 @@
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/</id>
 
-        <updated>2020-06-24T20:23:14+05:30</updated>
+        <updated>2020-06-24T20:36:39+05:30</updated>
             <summary>
                 <![CDATA[
-                    More about devOps
+                    what is devOps ? (Continue...)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>More about devOps</p>
+                <h2>what is devOps ? (Continue...)</h2>
             ]]>
         </content>
     </entry>
@@ -62,7 +62,7 @@
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/</id>
 
-        <updated>2020-06-24T20:23:14+05:30</updated>
+        <updated>2020-06-24T20:36:39+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -94,7 +94,7 @@
         </content>
     </entry>
     <entry>
-        <title>devOps</title>
+        <title>devOps Part 1</title>
         <author>
             <name>Swapnil Kumar</name>
         </author>
@@ -102,17 +102,17 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T20:23:14+05:30</updated>
+        <updated>2020-06-24T20:36:39+05:30</updated>
             <summary>
                 <![CDATA[
-                     devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks&hellip;
+                     what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
-    <h2 id="devops">
-      devOps
+    <h2 id="what-is-devops">
+      what is devOps
     </h2>
 
   <p>
