@@ -17,7 +17,7 @@
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-06-24T20:41:53+05:30</updated>
+        <updated>2020-06-24T20:50:52+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;
@@ -43,15 +43,17 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T20:41:53+05:30</updated>
+        <updated>2020-06-24T20:50:52+05:30</updated>
             <summary>
                 <![CDATA[
-                    what is devOps ? (Continue...)
+                    what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h2>what is devOps ? (Continue...)</h2>
+<hr>
+<p>i hope you are coming after reading <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this articl i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
             ]]>
         </content>
     </entry>
@@ -64,7 +66,7 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/</id>
             <category term="medium"/>
 
-        <updated>2020-06-24T20:41:53+05:30</updated>
+        <updated>2020-06-24T20:50:52+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -104,7 +106,7 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T20:41:53+05:30</updated>
+        <updated>2020-06-24T20:50:52+05:30</updated>
             <summary>
                 <![CDATA[
                      what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
@@ -116,6 +118,7 @@
     <h2 id="what-is-devops">
       what is devOps
     </h2>
+<hr class="separator separator--dots" />
 
   <p>
     Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong>

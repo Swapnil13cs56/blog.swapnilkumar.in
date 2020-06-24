@@ -21,23 +21,23 @@
             },
             "tags": [
             ],
-            "date_published": "2020-06-24T20:41:53+05:30",
-            "date_modified": "2020-06-24T20:41:53+05:30"
+            "date_published": "2020-06-24T20:50:52+05:30",
+            "date_modified": "2020-06-24T20:50:52+05:30"
         },
         {
             "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/",
             "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/",
             "title": "what is devOps ? (Continue...)",
-            "summary": "what is devOps ? (Continue...)",
-            "content_html": "<h2>what is devOps ? (Continue...)</h2>",
+            "summary": "what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.",
+            "content_html": "<h2>what is devOps ? (Continue...)</h2>\n<hr>\n<p>i hope you are coming after reading <a href=\"https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/\">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this articl i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
                    "devOps"
             ],
-            "date_published": "2020-06-24T20:41:53+05:30",
-            "date_modified": "2020-06-24T20:41:53+05:30"
+            "date_published": "2020-06-24T20:50:52+05:30",
+            "date_modified": "2020-06-24T20:50:52+05:30"
         },
         {
             "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/",
@@ -51,23 +51,23 @@
             "tags": [
                    "medium"
             ],
-            "date_published": "2020-06-24T20:41:53+05:30",
-            "date_modified": "2020-06-24T20:41:53+05:30"
+            "date_published": "2020-06-24T20:50:52+05:30",
+            "date_modified": "2020-06-24T20:50:52+05:30"
         },
         {
             "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/",
             "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/",
             "title": "what is devOps",
             "summary": " what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it&hellip;",
-            "content_html": "\n    <h2 id=\"what-is-devops\">\n      what is devOps\n    </h2>\n\n  <p>\n    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong>\n  </p>\n\n  <p>\n    In back days operations department was responsible for the deployment of builds (applications) and there was less or no involvement of the development team members in the deployment process. But there always a syncing problem exists between the developers and the operations team members resulting in extended timeline in the deployment of the build or say build coming under production so that they can be used by the end users.&nbsp;\n  </p>\n\n  <p>\n    <b>What the hell are you talking about? we were still able to perform the deployment in those times too, what devOps changed?&nbsp;</b>\n  </p>\n\n  <p>\n    Perfect question. devOps collaborated the developers to work with operations teams at the same time. What resulted in no syncing issues, if there exists any deployment issues due to some failure happening due to the build provided by the development team, the resolution happens within time making the operations team to deploy the build into production without any extension in the timeline.\n  </p>\n\n  <p>\n    <b>is that it?</b>\n  </p>\n\n  <p>\n    No, its not over yet. devOps can be completely an automated process, how we will learn into coming articles.&nbsp;\n  </p>\n\n  <p>\n    till then, thanks for the read...keep visiting, keep learning\n  </p>",
+            "content_html": "\n    <h2 id=\"what-is-devops\">\n      what is devOps\n    </h2>\n<hr class=\"separator separator--dots\" />\n\n  <p>\n    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong>\n  </p>\n\n  <p>\n    In back days operations department was responsible for the deployment of builds (applications) and there was less or no involvement of the development team members in the deployment process. But there always a syncing problem exists between the developers and the operations team members resulting in extended timeline in the deployment of the build or say build coming under production so that they can be used by the end users.&nbsp;\n  </p>\n\n  <p>\n    <b>What the hell are you talking about? we were still able to perform the deployment in those times too, what devOps changed?&nbsp;</b>\n  </p>\n\n  <p>\n    Perfect question. devOps collaborated the developers to work with operations teams at the same time. What resulted in no syncing issues, if there exists any deployment issues due to some failure happening due to the build provided by the development team, the resolution happens within time making the operations team to deploy the build into production without any extension in the timeline.\n  </p>\n\n  <p>\n    <b>is that it?</b>\n  </p>\n\n  <p>\n    No, its not over yet. devOps can be completely an automated process, how we will learn into coming articles.&nbsp;\n  </p>\n\n  <p>\n    till then, thanks for the read...keep visiting, keep learning\n  </p>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
                    "devOps"
             ],
-            "date_published": "2020-06-24T20:41:53+05:30",
-            "date_modified": "2020-06-24T20:41:53+05:30"
+            "date_published": "2020-06-24T20:50:52+05:30",
+            "date_modified": "2020-06-24T20:50:52+05:30"
         }
     ]
 }
