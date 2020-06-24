@@ -9,4 +9,27 @@
     </author>
     <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in</id>
 
+    <entry>
+        <title>devOps</title>
+        <author>
+            <name>Swapnil Kumar</name>
+        </author>
+        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops.html"/>
+        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops.html</id>
+
+        <updated>2020-06-24T15:46:16+05:30</updated>
+            <summary>
+                <![CDATA[
+                     Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations</strong>
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>

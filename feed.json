@@ -10,5 +10,19 @@
         "name": "Swapnil Kumar"
     },
     "items": [
+        {
+            "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops.html",
+            "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops.html",
+            "title": "devOps",
+            "summary": " Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a&hellip;",
+            "content_html": "\n  <p>\n    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations</strong>\n  </p>",
+            "author": {
+                "name": "Swapnil Kumar"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-06-24T15:46:16+05:30",
+            "date_modified": "2020-06-24T15:46:16+05:30"
+        }
     ]
 }
