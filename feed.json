@@ -11,6 +11,34 @@
     },
     "items": [
         {
+            "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/",
+            "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/",
+            "title": "welcome page",
+            "summary": "hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;",
+            "content_html": "<h2>hello friends,</h2>\n<p>glad to see you here, the app is basically to aware on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>\n<p>i will cover the implementation as well with most of the approaches using mostly the open source tools. </p>\n<hr>\n<p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>\n<p><a href=\"https://soundcloud.com/souplazyfeelrecording\"><img loading=\"lazy\" src=\"media/files/soundcloud.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a>   <a href=\"https://medium.com/@swapnilkr\"> <img loading=\"lazy\" src=\"media/files/medium.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a>    <a href=\"https://www.linkedin.com/in/swapnilkr/\"><img loading=\"lazy\" src=\"media/files/linkedin.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a></p>",
+            "author": {
+                "name": "Swapnil Kumar"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-06-24T20:23:14+05:30",
+            "date_modified": "2020-06-24T20:23:14+05:30"
+        },
+        {
+            "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/",
+            "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/",
+            "title": "devOps Part 2 ",
+            "summary": "More about devOps",
+            "content_html": "<p>More about devOps</p>",
+            "author": {
+                "name": "Swapnil Kumar"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-06-24T20:23:14+05:30",
+            "date_modified": "2020-06-24T20:23:14+05:30"
+        },
+        {
             "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/",
             "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/",
             "title": "parallel love",
@@ -21,8 +49,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-06-24T18:48:56+05:30",
-            "date_modified": "2020-06-24T18:48:56+05:30"
+            "date_published": "2020-06-24T20:23:14+05:30",
+            "date_modified": "2020-06-24T20:23:14+05:30"
         },
         {
             "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/",
@@ -36,8 +64,8 @@
             "tags": [
                    "devOps"
             ],
-            "date_published": "2020-06-24T18:48:56+05:30",
-            "date_modified": "2020-06-24T18:48:56+05:30"
+            "date_published": "2020-06-24T20:23:14+05:30",
+            "date_modified": "2020-06-24T20:23:14+05:30"
         }
     ]
 }
