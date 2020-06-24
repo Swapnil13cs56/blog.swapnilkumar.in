@@ -17,7 +17,7 @@
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-06-24T20:50:52+05:30</updated>
+        <updated>2020-06-24T23:59:45+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;
@@ -43,7 +43,7 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T20:50:52+05:30</updated>
+        <updated>2020-06-24T23:59:45+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
@@ -53,7 +53,18 @@
             <![CDATA[
                 <h2>what is devOps ? (Continue...)</h2>
 <hr>
-<p>i hope you are coming after reading <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this articl i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
+<p>i hope you are coming after reading <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this article i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
+<h4>so, what challenges does devOps solves?</h4>
+<p>when the teams work separately and by team i mean the dev, QA and the ops, Dev is often unaware of QA and Ops blockers that prevent the program from working as expected, at the other hand QA and Ops are typically working across many features and they have little context of the business purpose and value of the software by this what we see that each group has quite resisting goals which can lead to inefficiency or you can say fingure pointing when something goes wrong. </p>
+<p>and here devOps addresses these challenges by bridging and creating a cross functional teams that shares responsibility of maintaining the system that runs the software.</p>
+<figure class="post__image" ><img loading="lazy" src="https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/devops.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/responsive/devops-xs.png 300w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/responsive/devops-sm.png 480w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/responsive/devops-md.png 768w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/responsive/devops-lg.png 1024w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/responsive/devops-xl.png 1360w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/3/responsive/devops-2xl.png 1600w"  alt="Reference: https://medium.com/tech-tajawal/devops-in-a-scaling-environment-9d5416ecb928">
+<figcaption ><a href="https://medium.com/tech-tajawal/devops-in-a-scaling-environment-9d5416ecb928">reference: https://medium.com/tech-tajawal/devops-in-a-scaling-environment-9d5416ecb928</a></figcaption>
+</figure>
+<p>you can see how devOps collaborates the process of development, testing and deployment.</p>
+<p>just to make everyone clear that, devOps is not a tool. i am into the phase of learning it and i have find its more of a process or you can typically say a culture that needs to be adabpted to work in. what i have experienced so far is, as much as you dig yourself into this culture you will enjoy the workplace you have established for yourself. devOps deals with such real time scenarios where you can not be late, it has to be bang on or you will have to face loses as well. </p>
+<p>its not just a healthy culture in the technology era but you will find devOps around you yourself for sure in life lessons as well</p>
+<p>will catch you real soon with some more realistic technical writings with philosophical thinking.</p>
+<p>read my medium article on parallel love <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/">here</a></p>
             ]]>
         </content>
     </entry>
@@ -66,7 +77,7 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/</id>
             <category term="medium"/>
 
-        <updated>2020-06-24T20:50:52+05:30</updated>
+        <updated>2020-06-24T23:59:45+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -106,7 +117,7 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T20:50:52+05:30</updated>
+        <updated>2020-06-24T23:59:45+05:30</updated>
             <summary>
                 <![CDATA[
                      what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
@@ -145,7 +156,11 @@
   </p>
 
   <p>
-    till then, thanks for the read...keep visiting, keep learning
+    till then, thanks for the read...keep visiting, keep learning&nbsp;
+  </p>
+
+  <p>
+    read the devOps part 2&nbsp;<a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/">here</a>
   </p>
             ]]>
         </content>
