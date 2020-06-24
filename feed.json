@@ -11,18 +11,33 @@
     },
     "items": [
         {
-            "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops.html",
-            "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops.html",
-            "title": "devOps",
-            "summary": " Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a&hellip;",
-            "content_html": "\n  <p>\n    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations</strong>\n  </p>",
+            "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/",
+            "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/",
+            "title": "parallel love",
+            "summary": "parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;",
+            "content_html": "<section class=\"fq fr hk hl hm\">\n<div class=\"n p\">\n<div class=\"z ab ac ae af hn ah ai\">\n<h2>parallel love |❤️|</h2>\n<p> </p>\n<p id=\"e54a\" class=\"jy jz ap bx ka b kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq fq\" data-selectable-paragraph=\"\"><strong class=\"ka kr\">The </strong>world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least <strong class=\"ka kr\">close to normal</strong>. But you yourself know deep down inside, its never gonna happen. It’s hard to accept right? but I think this is the time we should consider this as what normal is to.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/parallel-love.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/responsive/parallel-love-xs.png 300w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/responsive/parallel-love-sm.png 480w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/responsive/parallel-love-md.png 768w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/responsive/parallel-love-lg.png 1024w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/responsive/parallel-love-xl.png 1360w ,https://swapnil13cs56.github.io/blog.swapnilkumar.in/media/posts/2/responsive/parallel-love-2xl.png 1600w\"  alt=\"\"></figure>\n<p id=\"beda\" class=\"jy jz ap bx ka b kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq fq\" data-selectable-paragraph=\"\">many in this world died due to the <a href=\"https://www.covid19india.org/\" class=\"ct dv kt ku kv kw\" target=\"_blank\" rel=\"noopener nofollow\"><strong class=\"ka kr\">COVID</strong></a><strong class=\"ka kr\"> </strong>impact, it was no less and there came news where people lost lives at early ages due to suicide, I am sorry but I have to use the word here, I don’t want to put any negative thoughts in your mind but moving forward I will try to embrace you to what we should achieve and not putting such thoughts whatsoever happens in our lives.</p>\n</div>\n</div>\n</section>\n<hr class=\"kx fo ky kz cl la jv lb lc ld le lf\">\n<section class=\"fq fr hk hl hm\">\n<div class=\"n p\">\n<div class=\"z ab ac ae af hn ah ai\">\n<p id=\"fb01\" class=\"jy jz ap bx ka b kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq fq\" data-selectable-paragraph=\"\">The title <strong class=\"ka kr\">parallel love</strong> sure is hitting you right now, or ringing bells that what I actually want to tell here. it’s no common we love, we love our family, friends and I guess a lot of people. and that’s an amazing part of what love is all about, its no tangible but it is what it is. you feel it, you accept it, many of us eat, drink and dance it, yes I am no kidding here, its no weapon but its a gift we all have we can share any time every time anywhere or everywhere…<em class=\"lg\">Umm am I right on that part?</em> I feel my self ....<em><a href=\"https://medium.com/@swapnilkr/parallel-love-96adf78fb44e\" target=\"_blank\" rel=\"noopener noreferrer\">read more</a></em></p>\n<p data-selectable-paragraph=\"\"> </p>\n</div>\n</div>\n</section>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
             ],
-            "date_published": "2020-06-24T15:46:16+05:30",
-            "date_modified": "2020-06-24T15:46:16+05:30"
+            "date_published": "2020-06-24T17:51:56+05:30",
+            "date_modified": "2020-06-24T17:51:56+05:30"
+        },
+        {
+            "id": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/",
+            "url": "https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/",
+            "title": "devOps",
+            "summary": " devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks&hellip;",
+            "content_html": "\n    <h2 id=\"devops\">\n      devOps\n    </h2>\n\n  <p>\n    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong>\n  </p>\n\n  <p>\n    In back days operations department was responsible for the deployment of builds (applications) and there was less or no involvement of the development team members in the deployment process. But there always a syncing problem exists between the developers and the operations team members resulting in extended timeline in the deployment of the build or say build coming under production so that they can be used by the end users.&nbsp;\n  </p>\n\n  <p>\n    <b>What the hell are you talking about? we were still able to perform the deployment in those times too, what devOps changed?&nbsp;</b>\n  </p>\n\n  <p>\n    Perfect question. devOps collaborated the developers to work with operations teams at the same time. What resulted in no syncing issues, if there exists any deployment issues due to some failure happening due to the build provided by the development team, the resolution happens within time making the operations team to deploy the build into production without any extension in the timeline.\n  </p>\n\n  <p>\n    <b>is that it?</b>\n  </p>\n\n  <p>\n    No, its not over yet. devOps can be completely an automated process, how we will learn into coming articles.&nbsp;\n  </p>\n\n  <p>\n    till then, thanks for the read...keep visiting, keep learning\n  </p>",
+            "author": {
+                "name": "Swapnil Kumar"
+            },
+            "tags": [
+                   "devOps"
+            ],
+            "date_published": "2020-06-24T17:51:56+05:30",
+            "date_modified": "2020-06-24T17:51:56+05:30"
         }
     ]
 }
