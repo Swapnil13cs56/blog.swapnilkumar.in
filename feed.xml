@@ -17,7 +17,7 @@
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-06-24T20:36:39+05:30</updated>
+        <updated>2020-06-24T20:41:53+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;
@@ -35,14 +35,15 @@
         </content>
     </entry>
     <entry>
-        <title>devOps Part 2 </title>
+        <title>what is devOps ? (Continue...)</title>
         <author>
             <name>Swapnil Kumar</name>
         </author>
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/</id>
+            <category term="devOps"/>
 
-        <updated>2020-06-24T20:36:39+05:30</updated>
+        <updated>2020-06-24T20:41:53+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)
@@ -61,8 +62,9 @@
         </author>
         <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/"/>
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/</id>
+            <category term="medium"/>
 
-        <updated>2020-06-24T20:36:39+05:30</updated>
+        <updated>2020-06-24T20:41:53+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -94,7 +96,7 @@
         </content>
     </entry>
     <entry>
-        <title>devOps Part 1</title>
+        <title>what is devOps</title>
         <author>
             <name>Swapnil Kumar</name>
         </author>
@@ -102,7 +104,7 @@
         <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T20:36:39+05:30</updated>
+        <updated>2020-06-24T20:41:53+05:30</updated>
             <summary>
                 <![CDATA[
                      what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
