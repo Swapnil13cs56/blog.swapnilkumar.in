@@ -14,10 +14,10 @@
         <author>
             <name>Swapnil Kumar</name>
         </author>
-        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/"/>
-        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/</id>
+        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/index.html"/>
+        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/index.html</id>
 
-        <updated>2020-06-24T23:59:45+05:30</updated>
+        <updated>2020-06-26T15:36:38+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;
@@ -28,7 +28,7 @@
                 <h2>hello friends,</h2>
 <p>glad to see you here, the app is basically to aware on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>
 <p>i will cover the implementation as well with most of the approaches using mostly the open source tools. </p>
-<p>so lets start with the first article on devOps <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/">here</a></p>
+<p>so lets start with the first article on devOps <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/index.html">here</a></p>
 <p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>
 <p><a href="https://soundcloud.com/souplazyfeelrecording"><img loading="lazy" src="media/files/soundcloud.png" data-is-external-image="true"  width="40px" height="40px"></a>   <a href="https://medium.com/@swapnilkr"> <img loading="lazy" src="media/files/medium.png" data-is-external-image="true"  width="40px" height="40px"></a>    <a href="https://www.linkedin.com/in/swapnilkr/"><img loading="lazy" src="media/files/linkedin.png" data-is-external-image="true"  width="40px" height="40px"></a></p>
             ]]>
@@ -39,11 +39,11 @@
         <author>
             <name>Swapnil Kumar</name>
         </author>
-        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/"/>
-        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/</id>
+        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/index.html"/>
+        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/index.html</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T23:59:45+05:30</updated>
+        <updated>2020-06-26T15:36:38+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
@@ -53,7 +53,7 @@
             <![CDATA[
                 <h2>what is devOps ? (Continue...)</h2>
 <hr>
-<p>i hope you are coming after reading <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this article i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
+<p>i hope you are coming after reading <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/index.html">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this article i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
 <h4>so, what challenges does devOps solves?</h4>
 <p>when the teams work separately and by team i mean the dev, QA and the ops, Dev is often unaware of QA and Ops blockers that prevent the program from working as expected, at the other hand QA and Ops are typically working across many features and they have little context of the business purpose and value of the software by this what we see that each group has quite resisting goals which can lead to inefficiency or you can say fingure pointing when something goes wrong. </p>
 <p>and here devOps addresses these challenges by bridging and creating a cross functional teams that shares responsibility of maintaining the system that runs the software.</p>
@@ -64,7 +64,7 @@
 <p>just to make everyone clear that, devOps is not a tool. i am into the phase of learning it and i have find its more of a process or you can typically say a culture that needs to be adabpted to work in. what i have experienced so far is, as much as you dig yourself into this culture you will enjoy the workplace you have established for yourself. devOps deals with such real time scenarios where you can not be late, it has to be bang on or you will have to face loses as well. </p>
 <p>its not just a healthy culture in the technology era but you will find devOps around you yourself for sure in life lessons as well</p>
 <p>will catch you real soon with some more realistic technical writings with philosophical thinking.</p>
-<p>read my medium article on parallel love <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/">here</a></p>
+<p>read my medium article on parallel love <a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/index.html">here</a></p>
             ]]>
         </content>
     </entry>
@@ -73,11 +73,11 @@
         <author>
             <name>Swapnil Kumar</name>
         </author>
-        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/"/>
-        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/</id>
+        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/index.html"/>
+        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/index.html</id>
             <category term="medium"/>
 
-        <updated>2020-06-24T23:59:45+05:30</updated>
+        <updated>2020-06-26T15:36:38+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -113,11 +113,11 @@
         <author>
             <name>Swapnil Kumar</name>
         </author>
-        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/"/>
-        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/</id>
+        <link href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/index.html"/>
+        <id>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/index.html</id>
             <category term="devOps"/>
 
-        <updated>2020-06-24T23:59:45+05:30</updated>
+        <updated>2020-06-26T15:36:38+05:30</updated>
             <summary>
                 <![CDATA[
                      what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
@@ -160,7 +160,7 @@
   </p>
 
   <p>
-    read the devOps part 2&nbsp;<a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/">here</a>
+    read the devOps part 2&nbsp;<a href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/index.html">here</a>
   </p>
             ]]>
         </content>
