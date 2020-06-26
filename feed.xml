@@ -10,6 +10,40 @@
     <id>https://swapnilkumar.in</id>
 
     <entry>
+        <title>who am i</title>
+        <author>
+            <name>Swapnil Kumar</name>
+        </author>
+        <link href="https://swapnilkumar.in/who-am-i/index.html"/>
+        <id>https://swapnilkumar.in/who-am-i/index.html</id>
+
+        <updated>2020-06-26T23:19:32+05:30</updated>
+            <summary>
+                <![CDATA[
+                    Swapnil KumarSenior Software Engineer (Test) Optimus Informations loves to sing (on soundcloud), free motivator (seriously no charge at all 😜), write poems (will pulbish soon here), articles (on mood, follow&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="container" style="font-weight: 300;">
+<div class="row">
+<div class="col-md-6">
+<div class="introsection" style="padding-top: 0%;">
+<h2 class="align-left">Swapnil Kumar</h2>
+<p class="align-left"><strong>Senior</strong> Software Engineer (Test)</p>
+<p class="align-left"><strong>Optimus</strong> Informations</p>
+<p class="align-left">loves to sing (on <strong><a href="https://soundcloud.com/souplazyfeelrecording" target="_blank" rel="noopener noreferrer">soundcloud</a></strong>), free motivator (seriously no charge at all 😜), write poems (will pulbish soon here), articles (on mood, follow on <strong><a href="https://medium.com/@swapnilkr" target="_blank" rel="noopener noreferrer">medium</a></strong>), cricket lover and i don't know what else, still exploring</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="profilepic"><figure class="post__image"><img loading="lazy"  style="padding-top: 0% !important; border-radius: 10%; height: 400px !important;" src="https://swapnilkumar.in/media/posts/7/test.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://swapnilkumar.in/media/posts/7/responsive/test-xs.png 300w ,https://swapnilkumar.in/media/posts/7/responsive/test-sm.png 480w ,https://swapnilkumar.in/media/posts/7/responsive/test-md.png 768w ,https://swapnilkumar.in/media/posts/7/responsive/test-lg.png 1024w ,https://swapnilkumar.in/media/posts/7/responsive/test-xl.png 1360w ,https://swapnilkumar.in/media/posts/7/responsive/test-2xl.png 1600w"  alt=""></figure></div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>welcome page</title>
         <author>
             <name>Swapnil Kumar</name>
@@ -17,17 +51,17 @@
         <link href="https://swapnilkumar.in/welcome-page/index.html"/>
         <id>https://swapnilkumar.in/welcome-page/index.html</id>
 
-        <updated>2020-06-26T16:20:57+05:30</updated>
+        <updated>2020-06-26T23:19:32+05:30</updated>
             <summary>
                 <![CDATA[
-                    hello friends,glad to see you here, the app is basically to aware on the hot topics of devOps around the world. I will try here to collect and write articles&hellip;
+                    hello friends,glad to see you here, the app is basically to aware you on the hot topics of devOps around the world. I will try here to collect and write&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h2>hello friends,</h2>
-<p>glad to see you here, the app is basically to aware on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>
-<p>i will cover the implementation as well with most of the approaches using mostly the open source tools. </p>
+<p>glad to see you here, the app is basically to aware you on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>
+<p>i will cover the implementation as well with most of the common and uncommon approaches using mostly open source tools. </p>
 <p>so lets start with the first article on devOps <a href="https://swapnilkumar.in/devops/index.html">here</a></p>
 <p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>
 <p><a href="https://soundcloud.com/souplazyfeelrecording"><img loading="lazy" src="media/files/soundcloud.png" data-is-external-image="true"  width="40px" height="40px"></a>   <a href="https://medium.com/@swapnilkr"> <img loading="lazy" src="media/files/medium.png" data-is-external-image="true"  width="40px" height="40px"></a>    <a href="https://www.linkedin.com/in/swapnilkr/"><img loading="lazy" src="media/files/linkedin.png" data-is-external-image="true"  width="40px" height="40px"></a></p>
@@ -43,7 +77,7 @@
         <id>https://swapnilkumar.in/devops-part-2/index.html</id>
             <category term="devOps"/>
 
-        <updated>2020-06-26T16:20:57+05:30</updated>
+        <updated>2020-06-26T23:19:32+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
@@ -77,7 +111,7 @@
         <id>https://swapnilkumar.in/parallel-love/index.html</id>
             <category term="medium"/>
 
-        <updated>2020-06-26T16:20:57+05:30</updated>
+        <updated>2020-06-26T23:19:32+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -117,7 +151,7 @@
         <id>https://swapnilkumar.in/devops/index.html</id>
             <category term="devOps"/>
 
-        <updated>2020-06-26T16:20:57+05:30</updated>
+        <updated>2020-06-26T23:19:32+05:30</updated>
             <summary>
                 <![CDATA[
                      what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
