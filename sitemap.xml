@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://swapnil13cs56.github.io/blog.swapnilkumar.in/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://swapnilkumar.in/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/</loc>
+<loc>https://swapnilkumar.in/</loc>
 </url>
 <url>
-<loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops/</loc>
+<loc>https://swapnilkumar.in/devops/</loc>
 <lastmod>2020-06-24T23:59:39+05:30</lastmod>
 </url>
 <url>
-<loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/devops-part-2/</loc>
+<loc>https://swapnilkumar.in/devops-part-2/</loc>
 <lastmod>2020-06-24T23:58:33+05:30</lastmod>
 <image:image>
-<image:loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/media\posts\3/devops.png</image:loc>
+<image:loc>https://swapnilkumar.in/media\posts\3/devops.png</image:loc>
 <image:title><![CDATA[Reference: https://medium.com/tech-tajawal/devops-in-a-scaling-environment-9d5416ecb928]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/parallel-love/</loc>
+<loc>https://swapnilkumar.in/parallel-love/</loc>
 <lastmod>2020-06-24T20:41:06+05:30</lastmod>
 <image:image>
-<image:loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/media\posts\2/parallel-love.png</image:loc>
+<image:loc>https://swapnilkumar.in/media\posts\2/parallel-love.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://swapnil13cs56.github.io/blog.swapnilkumar.in/welcome-page/</loc>
+<loc>https://swapnilkumar.in/welcome-page/</loc>
 <lastmod>2020-06-24T20:32:56+05:30</lastmod>
 </url>
 </urlset>
