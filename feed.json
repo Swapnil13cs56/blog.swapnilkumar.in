@@ -11,32 +11,46 @@
     },
     "items": [
         {
-            "id": "https://swapnilkumar.in/how-to-rename-azure-virtual-machine/",
-            "url": "https://swapnilkumar.in/how-to-rename-azure-virtual-machine/",
-            "title": "how to rename azure virtual machine",
-            "summary": "How to rename Azure Virtual MachineRenaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no&hellip;",
-            "content_html": "<h2 class=\"align-center\">How to rename Azure Virtual Machine</h2>\n<hr>\n<p>Renaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no manual process or rename operation that can be used on the<strong> <a href=\"https://portal.azure.com\">Azure portal</a></strong> to rename a Virtual machine as well. So do we have anything that we can do to rename our Virtual Machine or not?</p>\n<p>Yes we do have, we can perform the renaming of virtual machines using powershell script. You just need to make sure to run the script one by one just to make sure not make any mistake as the rename operation actually performs deletion and creation of the virtual machine with old configuration and a new name.</p>\n<p>There are a points which needs to be kept in mind while performing this operation of renaming, those are listed below:</p>\n<ol>\n<li>Replication will then be required to be re-initiated due to name change</li>\n<li>Backup also is then required to be re-initiated </li>\n<li>Management configuration requires a revisit (when i tried on my virtual machine, the auto shutdown property was removed)</li>\n<li>Make sure to detach any<strong> data disks</strong> before performing the rename (not the OS disk)</li>\n<li>If you have configured the Dashboard with that virtual machine tiles on it, due to name change the dashboard will then required a revisit, since now you will see \"No data available\" for the old VM</li>\n</ol>\n<p>So before proceeding lets deal with the <strong>Pre-requisites:</strong></p>\n<ul>\n<li>An Azure subscription. </li>\n<li>Az Azure Virtual machine on which rename is to be performed</li>\n<li>Windows PowerShell 5.1 or later, you can download from <a href=\"https://github.com/PowerShell/PowerShell/releases\">here</a></li>\n<li>The <a data-sf-ec-immutable=\"\" href=\"https://docs.microsoft.com/en-us/powershell/azure/install-az-ps\">Az PowerShell</a> module.</li>\n<li>A script editor of your choice. I am using Notepad++, can be downloaded from <a href=\"https://notepad-plus-plus.org/downloads/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>, but you can use any of your choice.</li>\n</ul>\n<p>We will be actully doing three major operations, <strong>Backing up the Old VM configurations</strong>, <strong>Deleting</strong> it and Finally <strong>creating</strong> the New Virtual Machine with <strong>old configuration and new name</strong>.</p>\n<p>Before going with the steps below you need to connect to your Azure account and required subscription</p>\n<p>Check <a href=\"https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?ranMID=24542&amp;ranEAID=je6NUbpObpQ&amp;ranSiteID=je6NUbpObpQ-Vz6W5PrfRAFIGZZk9XwTSg&amp;epi=je6NUbpObpQ-Vz6W5PrfRAFIGZZk9XwTSg&amp;irgwc=1&amp;OCID=AID2000142_aff_7593_1243925&amp;tduid=(ir__keeonw1orkkftzcs0h20wk909m2xiw0mp0cuh2yz00)(7593)(1243925)(je6NUbpObpQ-Vz6W5PrfRAFIGZZk9XwTSg)()&amp;irclickid=_keeonw1orkkftzcs0h20wk909m2xiw0mp0cuh2yz00&amp;view=azps-4.3.0\">Sign in with Azure PowerShell</a>, when connected in the required subscription you can check your VMs using the <strong>Get-AzVM</strong> command and now perform the below steps</p>\n<p>1. <strong>Backing</strong> up the OLD VM</p>\n<p> Using your script editor, create a powershell script and enter the below script</p>\n<p># Resource Group Name<br>$ResourceGroupName = 'your_resource_group_name'<br><br># Virtual Machine Name<br>$VirtualMachineName = 'your_virtual_machine_name_which_needs_to_be_renamed'<br><br>Then, this next command will <strong>export the Azure VM properties to an XML file</strong>. Save it somewhere on your computer that you can find later on. The code below saves the VM settings to C:\\Demo\\Backup.xml*.<br><br># Export VM properties<br>Get-AzVM -ResourceGroupName $ResourceGroupName -Name $VirtualMachineName | Export-Clixml C:\\Demo\\VM_Backup.xml -Depth 5<br><br>Now you have a backup of the original VM properties that you can use as a reference when needed. Use the command below to import the backup XML file into a variable named $oldVM.<br><br># Import VM settings from backup XML and store it in a variable<br>$oldVM = Import-Clixml C:\\Demo\\VM_Backup.xml</p>\n<p>2. <strong>Deleting</strong> the Virtual Machine</p>\n<p>Since by now you have the Configuration backup with you, now we can delete the Virtual Machine</p>\n<p># Delete the Old VM<br>Remove-AzVM -ResourceGroupName $oldVM.ResourceGroupName -Name $oldVM.Name</p>\n<p>You might be asking “what about the other resources which were connected to the virtual machine that was deleted?”. No need to worry, those resources are left unchanged.<br><br>The previous command only deletes the virtual machine. You can confirm by looking for those connected resources in the Azure portal under the resource group.</p>\n<p>3. Creating the New Virtual Machine with new name</p>\n<p># Set the name of the new virtual machine<br>$newVMName = 'demo-mail2'<br><br># Initiate a new virtual machine configuration<br>$newVM = New-AzVMConfig -VMName $newVMName -VMSize $oldVM.HardwareProfile.VmSize -Tags $oldVM.Tags<br><br>Next, attach the OS Disk that was previously attached to the old virtual machine to the new one. Use the code below to do that.<br><br># Attach the OS Disk of the old VM to the new VM<br>Set-AzVMOSDisk -VM $newVM -CreateOption Attach -ManagedDiskId $oldVM.StorageProfile.OsDisk.ManagedDisk.Id -Name $oldVM.StorageProfile.OsDisk.Name -Windows<br><br>Now, attach the network interface using this next line of code.<br><br># Attach all NICs of the old VM to the new VM<br>$oldVM.NetworkProfile.NetworkInterfaces | % {Add-AzVMNetworkInterface -VM $newVM -Id $_.Id}<br><br>And finally, attach any data disks that were present in the old VM.<br><br># Attach all Data Disks (if any) of the old VM to the new VM<br>$oldVM.StorageProfile.DataDisks | % {Add-AzVMDataDisk -VM $newVM -Name $_.Name -ManagedDiskId $_.ManagedDisk.Id -Caching $_.Caching -Lun $_.Lun -DiskSizeInGB $_.DiskSizeGB -CreateOption Attach}<br><br>At this point, the new virtual machine specs are packaged in the configuration stored in the $newVM variable. Using this next code snippet will trigger the creation of the new virtual machine.<br><br># Create the new virtual machine<br>New-AzVM -ResourceGroupName $ResourceGroupName -Location $oldVM.Location -VM $newVM</p>\n<p>The creation may take a few minutes to complete.</p>\n<p>For more, you can refer to this <a href=\"https://www.whatsupgold.com/blog/how-to-rename-an-azure-vm-using-powershell-a-step-by-step-guide\" target=\"_blank\" rel=\"noopener noreferrer\">article</a></p>",
+            "id": "https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/",
+            "url": "https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/",
+            "title": "attaching sql agent with the azure virtual machine",
+            "summary": "Attaching SQL Agent with the Azure virtual machineYour requirement: To rename a Virtual machine having sql configuration (for example a azure sql machine with configuration of SQL Server 2016 with&hellip;",
+            "content_html": "<h2 class=\"align-left\">Attaching SQL Agent with the Azure virtual machine</h2>\n<hr>\n<p><strong>Your requirement:</strong></p>\n<p>To rename a Virtual machine having sql configuration (for example a azure sql machine with configuration of SQL Server 2016 with Windows server 2016 Datacenter R2)</p>\n<p>what? you virtual machine had a sql agent attached to it before renaming? now you don't know how do it right? No worries, you came to the right place, but before moving forward i would request you to go through the previous article of <a href=\"https://swapnilkumar.in/how-to-rename-azure-virtual-machine/\" target=\"_blank\" rel=\"noopener noreferrer\">renaming an azure virtual machine</a> because this process saves all the configuration required to be used in the following steps as well.</p>\n<p>I hope you have gone through the previous article, so now you have to perform just one more step or run a single line of script in powershell to add the sql agent to the renamed virtual machine</p>\n<p><em><strong>&gt; New-AzSqlVM -ResourceGroupName \"resource-group-nae\" -Name \"renamed-virtual-machine-name\" -Location \"location\" -LicenseType PAYG</strong></em></p>\n<p>and thats it, you're done.</p>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
+        },
+        {
+            "id": "https://swapnilkumar.in/how-to-rename-azure-virtual-machine/",
+            "url": "https://swapnilkumar.in/how-to-rename-azure-virtual-machine/",
+            "title": "how to rename azure virtual machine",
+            "summary": "How to rename Azure Virtual MachineRenaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no&hellip;",
+            "content_html": "<h2 class=\"align-left\">How to rename Azure Virtual Machine</h2>\n<hr>\n<p>Renaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no manual process or rename operation that can be used on the<strong> <a href=\"https://portal.azure.com\">Azure portal</a></strong> to rename a Virtual machine as well. So do we have anything that we can do to rename our Virtual Machine or not?</p>\n<p>Yes we do have, we can perform the renaming of virtual machines using powershell script. You just need to make sure to run the script one by one just to make sure not make any mistake as the rename operation actually performs deletion and creation of the virtual machine with old configuration and a new name.</p>\n<p>There are a points which needs to be kept in mind while performing this operation of renaming, those are listed below:</p>\n<ol>\n<li>Replication will then be required to be re-initiated due to name change</li>\n<li>Backup also is then required to be re-initiated </li>\n<li>Management configuration requires a revisit (when i tried on my virtual machine, the auto shutdown property was removed)</li>\n<li>Make sure to detach any<strong> data disks</strong> before performing the rename (not the OS disk)</li>\n<li>If you have configured the Dashboard with that virtual machine tiles on it, due to name change the dashboard will then required a revisit, since now you will see \"No data available\" for the old VM</li>\n</ol>\n<p>So before proceeding lets deal with the <strong>Pre-requisites:</strong></p>\n<ul>\n<li>An Azure subscription. </li>\n<li>Az Azure Virtual machine on which rename is to be performed</li>\n<li>Windows PowerShell 5.1 or later, you can download from <a href=\"https://github.com/PowerShell/PowerShell/releases\">here</a></li>\n<li>The <a data-sf-ec-immutable=\"\" href=\"https://docs.microsoft.com/en-us/powershell/azure/install-az-ps\">Az PowerShell</a> module.</li>\n<li>A script editor of your choice. I am using Notepad++, can be downloaded from <a href=\"https://notepad-plus-plus.org/downloads/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>, but you can use any of your choice.</li>\n</ul>\n<p>We will be actully doing three major operations, <strong>Backing up the Old VM configurations</strong>, <strong>Deleting</strong> it and Finally <strong>creating</strong> the New Virtual Machine with <strong>old configuration and new name</strong>.</p>\n<p>Before going with the steps below you need to connect to your Azure account and required subscription</p>\n<p>Check <a href=\"https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?ranMID=24542&amp;ranEAID=je6NUbpObpQ&amp;ranSiteID=je6NUbpObpQ-Vz6W5PrfRAFIGZZk9XwTSg&amp;epi=je6NUbpObpQ-Vz6W5PrfRAFIGZZk9XwTSg&amp;irgwc=1&amp;OCID=AID2000142_aff_7593_1243925&amp;tduid=(ir__keeonw1orkkftzcs0h20wk909m2xiw0mp0cuh2yz00)(7593)(1243925)(je6NUbpObpQ-Vz6W5PrfRAFIGZZk9XwTSg)()&amp;irclickid=_keeonw1orkkftzcs0h20wk909m2xiw0mp0cuh2yz00&amp;view=azps-4.3.0\">Sign in with Azure PowerShell</a>, when connected in the required subscription you can check your VMs using the <strong>Get-AzVM</strong> command and now perform the below steps</p>\n<p>1. <strong>Backing</strong> up the OLD VM</p>\n<p> Using your script editor, create a powershell script and enter the below script</p>\n<p># Resource Group Name<br>$ResourceGroupName = 'your_resource_group_name'<br><br># Virtual Machine Name<br>$VirtualMachineName = 'your_virtual_machine_name_which_needs_to_be_renamed'<br><br>Then, this next command will <strong>export the Azure VM properties to an XML file</strong>. Save it somewhere on your computer that you can find later on. The code below saves the VM settings to C:\\Demo\\Backup.xml*.<br><br># Export VM properties<br>Get-AzVM -ResourceGroupName $ResourceGroupName -Name $VirtualMachineName | Export-Clixml C:\\Demo\\VM_Backup.xml -Depth 5<br><br>Now you have a backup of the original VM properties that you can use as a reference when needed. Use the command below to import the backup XML file into a variable named $oldVM.<br><br># Import VM settings from backup XML and store it in a variable<br>$oldVM = Import-Clixml C:\\Demo\\VM_Backup.xml</p>\n<p>2. <strong>Deleting</strong> the Virtual Machine</p>\n<p>Since by now you have the Configuration backup with you, now we can delete the Virtual Machine</p>\n<p># Delete the Old VM<br>Remove-AzVM -ResourceGroupName $oldVM.ResourceGroupName -Name $oldVM.Name</p>\n<p>You might be asking “what about the other resources which were connected to the virtual machine that was deleted?”. No need to worry, those resources are left unchanged.<br><br>The previous command only deletes the virtual machine. You can confirm by looking for those connected resources in the Azure portal under the resource group.</p>\n<p>3. Creating the New Virtual Machine with new name</p>\n<p># Set the name of the new virtual machine<br>$newVMName = 'demo-mail2'<br><br># Initiate a new virtual machine configuration<br>$newVM = New-AzVMConfig -VMName $newVMName -VMSize $oldVM.HardwareProfile.VmSize -Tags $oldVM.Tags<br><br>Next, attach the OS Disk that was previously attached to the old virtual machine to the new one. Use the code below to do that.<br><br># Attach the OS Disk of the old VM to the new VM<br>Set-AzVMOSDisk -VM $newVM -CreateOption Attach -ManagedDiskId $oldVM.StorageProfile.OsDisk.ManagedDisk.Id -Name $oldVM.StorageProfile.OsDisk.Name -Windows<br><br>Now, attach the network interface using this next line of code.<br><br># Attach all NICs of the old VM to the new VM<br>$oldVM.NetworkProfile.NetworkInterfaces | % {Add-AzVMNetworkInterface -VM $newVM -Id $_.Id}<br><br>And finally, attach any data disks that were present in the old VM.<br><br># Attach all Data Disks (if any) of the old VM to the new VM<br>$oldVM.StorageProfile.DataDisks | % {Add-AzVMDataDisk -VM $newVM -Name $_.Name -ManagedDiskId $_.ManagedDisk.Id -Caching $_.Caching -Lun $_.Lun -DiskSizeInGB $_.DiskSizeGB -CreateOption Attach}<br><br>At this point, the new virtual machine specs are packaged in the configuration stored in the $newVM variable. Using this next code snippet will trigger the creation of the new virtual machine.<br><br># Create the new virtual machine<br>New-AzVM -ResourceGroupName $ResourceGroupName -Location $oldVM.Location -VM $newVM</p>\n<p>The creation may take a few minutes to complete.</p>\n<p>For more, you can refer to this <a href=\"https://www.whatsupgold.com/blog/how-to-rename-an-azure-vm-using-powershell-a-step-by-step-guide\" target=\"_blank\" rel=\"noopener noreferrer\">article</a></p>",
+            "author": {
+                "name": "Swapnil Kumar"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/software-testing/",
             "url": "https://swapnilkumar.in/software-testing/",
             "title": "software testing",
             "summary": "Sofware TestingAccording to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the differences between existing and required conditions (that is defects/errors/bugs) and&hellip;",
-            "content_html": "<h2 class=\"align-center\">Sofware Testing</h2>\n<p>According to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the <strong>differences</strong> between <strong>existing</strong> and <strong>required conditions</strong> (that is defects/errors/bugs) and to<strong> evaluate the features</strong> of the software item.</p>\n<p> </p>\n<h4>Why Software Testing?</h4>\n<p>So, the question arises, why is there a need to test a software? </p>\n<p><strong>Scenario 1:</strong> No testing is performed on an application, its live for the users and bunch of users are using at the same time, after a few minutes or so, the application crashes and does not run until is resinstalled</p>\n<p><strong>Cause of Issue:</strong> Since the application was never tested, the gap was never filled, and by gap i mean the scenario at which the application tends to crash</p>\n<p><strong>Scenario 2:</strong> The user starts using the application, he/she browses a few areas of the application and even with the best of functionalities, fast in terms of performances, they remove or stop using it</p>\n<p><strong>Cause of Issue:</strong> The User Experience part now a days is very important while building any application, from the very small to large scale ones, if the user is not loving using it, he wont stay longer.</p>\n<p>There can be many such scenarios, but from the above two, you can see why testing is important, I am laying out some of the major applications of Software Testing (reference for the applications is taken from <a href=\"https://www.tutorialspoint.com/software_testing/index.htm\">here</a>)</p>\n<ul>\n<li>Cost Effective Development</li>\n<li>Product improvement</li>\n<li>Test Automation</li>\n<li>Quality check </li>\n</ul>\n<p>So, now the question arises, who does it? who performs the testing, answer is, it actually depends on the process and associated members of the project. Each member resides the responsibility of testing the application in one way or another. We have the <strong>developers</strong> performing Unit testing on their code, <strong>Software testers</strong> to test the application in more than one type (depending on the requirement which is based on the timespan and the criticality sometimes as well). The <strong>Project Lead or the manager</strong> sometimes performs the UAT  (User acceptance testing) and so on.</p>\n<p>Now, when I should start the testing process? Checkout here</p>\n<p> </p>",
+            "content_html": "<h2 class=\"align-left\">Sofware Testing</h2>\n<hr>\n<p>According to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the <strong>differences</strong> between <strong>existing</strong> and <strong>required conditions</strong> (that is defects/errors/bugs) and to<strong> evaluate the features</strong> of the software item.</p>\n<p> </p>\n<h4>Why Software Testing?</h4>\n<p>So, the question arises, why is there a need to test a software? </p>\n<p><strong>Scenario 1:</strong> No testing is performed on an application, its live for the users and bunch of users are using at the same time, after a few minutes or so, the application crashes and does not run until is resinstalled</p>\n<p><strong>Cause of Issue:</strong> Since the application was never tested, the gap was never filled, and by gap i mean the scenario at which the application tends to crash</p>\n<p><strong>Scenario 2:</strong> The user starts using the application, he/she browses a few areas of the application and even with the best of functionalities, fast in terms of performances, they remove or stop using it</p>\n<p><strong>Cause of Issue:</strong> The User Experience part now a days is very important while building any application, from the very small to large scale ones, if the user is not loving using it, he wont stay longer.</p>\n<p>There can be many such scenarios, but from the above two, you can see why testing is important, I am laying out some of the major applications of Software Testing (reference for the applications is taken from <a href=\"https://www.tutorialspoint.com/software_testing/index.htm\">here</a>)</p>\n<ul>\n<li>Cost Effective Development</li>\n<li>Product improvement</li>\n<li>Test Automation</li>\n<li>Quality check </li>\n</ul>\n<p>So, now the question arises, who does it? who performs the testing, answer is, it actually depends on the process and associated members of the project. Each member resides the responsibility of testing the application in one way or another. We have the <strong>developers</strong> performing Unit testing on their code, <strong>Software testers</strong> to test the application in more than one type (depending on the requirement which is based on the timespan and the criticality sometimes as well). The <strong>Project Lead or the manager</strong> sometimes performs the UAT  (User acceptance testing) and so on.</p>\n<p>Now, when I should start the testing process? Checkout here</p>\n<p> </p>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/capture-the-flag-just-for-fun/",
@@ -49,8 +63,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/my-poems/",
@@ -63,8 +77,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/dojo-devops/",
@@ -77,8 +91,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/who-am-i/",
@@ -91,8 +105,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/welcome-page/",
@@ -105,8 +119,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/devops-part-2/",
@@ -120,8 +134,8 @@
             "tags": [
                    "devOps"
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         },
         {
             "id": "https://swapnilkumar.in/parallel-love/",
@@ -135,23 +149,8 @@
             "tags": [
                    "medium"
             ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
-        },
-        {
-            "id": "https://swapnilkumar.in/devops/",
-            "url": "https://swapnilkumar.in/devops/",
-            "title": "what is devOps",
-            "summary": " what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it&hellip;",
-            "content_html": "\n    <h2 id=\"what-is-devops\">\n      what is devOps\n    </h2>\n<hr class=\"separator separator--dots\" />\n\n  <p>\n    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word \"devOps\" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong>\n  </p>\n\n  <p>\n    In back days operations department was responsible for the deployment of builds (applications) and there was less or no involvement of the development team members in the deployment process. But there always a syncing problem exists between the developers and the operations team members resulting in extended timeline in the deployment of the build or say build coming under production so that they can be used by the end users.&nbsp;\n  </p>\n\n  <p>\n    <b>What the hell are you talking about? we were still able to perform the deployment in those times too, what devOps changed?&nbsp;</b>\n  </p>\n\n  <p>\n    Perfect question. devOps collaborated the developers to work with operations teams at the same time. What resulted in no syncing issues, if there exists any deployment issues due to some failure happening due to the build provided by the development team, the resolution happens within time making the operations team to deploy the build into production without any extension in the timeline.\n  </p>\n\n  <p>\n    <b>is that it?</b>\n  </p>\n\n  <p>\n    No, its not over yet. devOps can be completely an automated process, how we will learn into coming articles.&nbsp;\n  </p>\n\n  <p>\n    till then, thanks for the read...keep visiting, keep learning&nbsp;\n  </p>\n\n  <p>\n    read the devOps part 2&nbsp;<a href=\"https://swapnilkumar.in/devops-part-2/\">here</a>\n  </p>",
-            "author": {
-                "name": "Swapnil Kumar"
-            },
-            "tags": [
-                   "devOps"
-            ],
-            "date_published": "2020-07-13T22:25:24+05:30",
-            "date_modified": "2020-07-13T22:25:24+05:30"
+            "date_published": "2020-07-13T23:55:03+05:30",
+            "date_modified": "2020-07-13T23:55:03+05:30"
         }
     ]
 }

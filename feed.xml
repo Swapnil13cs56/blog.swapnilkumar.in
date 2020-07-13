@@ -10,6 +10,33 @@
     <id>https://swapnilkumar.in</id>
 
     <entry>
+        <title>attaching sql agent with the azure virtual machine</title>
+        <author>
+            <name>Swapnil Kumar</name>
+        </author>
+        <link href="https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/"/>
+        <id>https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/</id>
+
+        <updated>2020-07-13T23:55:03+05:30</updated>
+            <summary>
+                <![CDATA[
+                    Attaching SQL Agent with the Azure virtual machineYour requirement: To rename a Virtual machine having sql configuration (for example a azure sql machine with configuration of SQL Server 2016 with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 class="align-left">Attaching SQL Agent with the Azure virtual machine</h2>
+<hr>
+<p><strong>Your requirement:</strong></p>
+<p>To rename a Virtual machine having sql configuration (for example a azure sql machine with configuration of SQL Server 2016 with Windows server 2016 Datacenter R2)</p>
+<p>what? you virtual machine had a sql agent attached to it before renaming? now you don't know how do it right? No worries, you came to the right place, but before moving forward i would request you to go through the previous article of <a href="https://swapnilkumar.in/how-to-rename-azure-virtual-machine/" target="_blank" rel="noopener noreferrer">renaming an azure virtual machine</a> because this process saves all the configuration required to be used in the following steps as well.</p>
+<p>I hope you have gone through the previous article, so now you have to perform just one more step or run a single line of script in powershell to add the sql agent to the renamed virtual machine</p>
+<p><em><strong>&gt; New-AzSqlVM -ResourceGroupName "resource-group-nae" -Name "renamed-virtual-machine-name" -Location "location" -LicenseType PAYG</strong></em></p>
+<p>and thats it, you're done.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>how to rename azure virtual machine</title>
         <author>
             <name>Swapnil Kumar</name>
@@ -17,7 +44,7 @@
         <link href="https://swapnilkumar.in/how-to-rename-azure-virtual-machine/"/>
         <id>https://swapnilkumar.in/how-to-rename-azure-virtual-machine/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     How to rename Azure Virtual MachineRenaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no&hellip;
@@ -25,7 +52,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 class="align-center">How to rename Azure Virtual Machine</h2>
+                <h2 class="align-left">How to rename Azure Virtual Machine</h2>
 <hr>
 <p>Renaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no manual process or rename operation that can be used on the<strong> <a href="https://portal.azure.com">Azure portal</a></strong> to rename a Virtual machine as well. So do we have anything that we can do to rename our Virtual Machine or not?</p>
 <p>Yes we do have, we can perform the renaming of virtual machines using powershell script. You just need to make sure to run the script one by one just to make sure not make any mistake as the rename operation actually performs deletion and creation of the virtual machine with old configuration and a new name.</p>
@@ -70,7 +97,7 @@
         <link href="https://swapnilkumar.in/software-testing/"/>
         <id>https://swapnilkumar.in/software-testing/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     Sofware TestingAccording to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the differences between existing and required conditions (that is defects/errors/bugs) and&hellip;
@@ -78,7 +105,8 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 class="align-center">Sofware Testing</h2>
+                <h2 class="align-left">Sofware Testing</h2>
+<hr>
 <p>According to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the <strong>differences</strong> between <strong>existing</strong> and <strong>required conditions</strong> (that is defects/errors/bugs) and to<strong> evaluate the features</strong> of the software item.</p>
 <p> </p>
 <h4>Why Software Testing?</h4>
@@ -108,7 +136,7 @@
         <link href="https://swapnilkumar.in/capture-the-flag-just-for-fun/"/>
         <id>https://swapnilkumar.in/capture-the-flag-just-for-fun/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     capture the flag (just for fun) hello friends, you like exploring around and finding solutions? yes this time its more of finding and then working on it to get the&hellip;
@@ -150,7 +178,7 @@
         <link href="https://swapnilkumar.in/my-poems/"/>
         <id>https://swapnilkumar.in/my-poems/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     you were there walking down the isle, i see a beautiful girl with a heart to lift staying low is what i all got keeping myself away not to bother&hellip;
@@ -186,7 +214,7 @@
         <link href="https://swapnilkumar.in/dojo-devops/"/>
         <id>https://swapnilkumar.in/dojo-devops/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     virtual devOps dojo 
@@ -216,7 +244,7 @@
         <link href="https://swapnilkumar.in/who-am-i/"/>
         <id>https://swapnilkumar.in/who-am-i/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     Swapnil KumarSenior Software Engineer (Test) Optimus Information loves to sing (on soundcloud), free motivator (seriously no charge at all 😜), write poems (check it here), articles (on mood, follow on&hellip;
@@ -250,7 +278,7 @@
         <link href="https://swapnilkumar.in/welcome-page/"/>
         <id>https://swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware you on the hot topics of devOps around the world. I will try here to collect and write&hellip;
@@ -276,7 +304,7 @@
         <id>https://swapnilkumar.in/devops-part-2/</id>
             <category term="devOps"/>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
@@ -310,7 +338,7 @@
         <id>https://swapnilkumar.in/parallel-love/</id>
             <category term="medium"/>
 
-        <updated>2020-07-13T22:25:24+05:30</updated>
+        <updated>2020-07-13T23:55:03+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -338,63 +366,6 @@
 </div>
 </div>
 </section>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>what is devOps</title>
-        <author>
-            <name>Swapnil Kumar</name>
-        </author>
-        <link href="https://swapnilkumar.in/devops/"/>
-        <id>https://swapnilkumar.in/devops/</id>
-            <category term="devOps"/>
-
-        <updated>2020-07-13T22:25:24+05:30</updated>
-            <summary>
-                <![CDATA[
-                     what is devOps Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <h2 id="what-is-devops">
-      what is devOps
-    </h2>
-<hr class="separator separator--dots" />
-
-  <p>
-    Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong>
-  </p>
-
-  <p>
-    In back days operations department was responsible for the deployment of builds (applications) and there was less or no involvement of the development team members in the deployment process. But there always a syncing problem exists between the developers and the operations team members resulting in extended timeline in the deployment of the build or say build coming under production so that they can be used by the end users.&nbsp;
-  </p>
-
-  <p>
-    <b>What the hell are you talking about? we were still able to perform the deployment in those times too, what devOps changed?&nbsp;</b>
-  </p>
-
-  <p>
-    Perfect question. devOps collaborated the developers to work with operations teams at the same time. What resulted in no syncing issues, if there exists any deployment issues due to some failure happening due to the build provided by the development team, the resolution happens within time making the operations team to deploy the build into production without any extension in the timeline.
-  </p>
-
-  <p>
-    <b>is that it?</b>
-  </p>
-
-  <p>
-    No, its not over yet. devOps can be completely an automated process, how we will learn into coming articles.&nbsp;
-  </p>
-
-  <p>
-    till then, thanks for the read...keep visiting, keep learning&nbsp;
-  </p>
-
-  <p>
-    read the devOps part 2&nbsp;<a href="https://swapnilkumar.in/devops-part-2/">here</a>
-  </p>
             ]]>
         </content>
     </entry>
