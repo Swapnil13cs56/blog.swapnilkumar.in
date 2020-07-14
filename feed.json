@@ -21,8 +21,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/how-to-rename-azure-virtual-machine/",
@@ -35,22 +35,22 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/software-testing/",
             "url": "https://swapnilkumar.in/software-testing/",
             "title": "software testing",
             "summary": "Sofware TestingAccording to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the differences between existing and required conditions (that is defects/errors/bugs) and&hellip;",
-            "content_html": "<h2 class=\"align-left\">Sofware Testing</h2>\n<hr>\n<p>According to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the <strong>differences</strong> between <strong>existing</strong> and <strong>required conditions</strong> (that is defects/errors/bugs) and to<strong> evaluate the features</strong> of the software item.</p>\n<p> </p>\n<h4>Why Software Testing?</h4>\n<p>So, the question arises, why is there a need to test a software? </p>\n<p><strong>Scenario 1:</strong> No testing is performed on an application, its live for the users and bunch of users are using at the same time, after a few minutes or so, the application crashes and does not run until is resinstalled</p>\n<p><strong>Cause of Issue:</strong> Since the application was never tested, the gap was never filled, and by gap i mean the scenario at which the application tends to crash</p>\n<p><strong>Scenario 2:</strong> The user starts using the application, he/she browses a few areas of the application and even with the best of functionalities, fast in terms of performances, they remove or stop using it</p>\n<p><strong>Cause of Issue:</strong> The User Experience part now a days is very important while building any application, from the very small to large scale ones, if the user is not loving using it, he wont stay longer.</p>\n<p>There can be many such scenarios, but from the above two, you can see why testing is important, I am laying out some of the major applications of Software Testing (reference for the applications is taken from <a href=\"https://www.tutorialspoint.com/software_testing/index.htm\">here</a>)</p>\n<ul>\n<li>Cost Effective Development</li>\n<li>Product improvement</li>\n<li>Test Automation</li>\n<li>Quality check </li>\n</ul>\n<p>So, now the question arises, who does it? who performs the testing, answer is, it actually depends on the process and associated members of the project. Each member resides the responsibility of testing the application in one way or another. We have the <strong>developers</strong> performing Unit testing on their code, <strong>Software testers</strong> to test the application in more than one type (depending on the requirement which is based on the timespan and the criticality sometimes as well). The <strong>Project Lead or the manager</strong> sometimes performs the UAT  (User acceptance testing) and so on.</p>\n<p>Now, when I should start the testing process? Checkout here</p>\n<p> </p>",
+            "content_html": "<h2 class=\"align-left\">Sofware Testing</h2>\n<hr>\n<p>According to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the <strong>differences</strong> between <strong>existing</strong> and <strong>required conditions</strong> (that is defects/errors/bugs) and to<strong> evaluate the features</strong> of the software item.</p>\n<p> </p>\n<h4>Why Software Testing?</h4>\n<p>So, the question arises, why is there a need to test a software? </p>\n<p><strong>Scenario 1:</strong> No testing is performed on an application, its live for the users and bunch of users are using at the same time, after a few minutes or so, the application crashes and does not run until is resinstalled</p>\n<p><strong>Cause of Issue:</strong> Since the application was never tested, the gap was never filled, and by gap i mean the scenario at which the application tends to crash</p>\n<p><strong>Scenario 2:</strong> The user starts using the application, he/she browses a few areas of the application and even with the best of functionalities, fast in terms of performances, they remove or stop using it</p>\n<p><strong>Cause of Issue:</strong> The User Experience part now a days is very important while building any application, from the very small to large scale ones, if the user is not loving using it, he wont stay longer.</p>\n<p>There can be many such scenarios, but from the above two, you can see why testing is important, I am laying out some of the major applications of Software Testing (reference for the applications is taken from <a href=\"https://www.tutorialspoint.com/software_testing/index.htm\">here</a>)</p>\n<ul>\n<li>Cost Effective Development</li>\n<li>Product improvement</li>\n<li>Test Automation</li>\n<li>Quality check </li>\n</ul>\n<p>So, now the question arises, who does it? who performs the testing, answer is, it actually depends on the process and associated members of the project. Each member resides the responsibility of testing the application in one way or another. We have the <strong>developers</strong> performing Unit testing on their code, <strong>Software testers</strong> to test the application in more than one type (depending on the requirement which is based on the timespan and the criticality sometimes as well). The <strong>Project Lead or the manager</strong> sometimes performs the UAT  (User acceptance testing) and so on.</p>\n<p>Now, when I should start the testing process? Checkout here</p>\n<p> </p>\n<p>\n<script data-ad-client=\"ca-pub-2493796679704543\" async=\"\" src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n</p>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/capture-the-flag-just-for-fun/",
@@ -63,8 +63,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/my-poems/",
@@ -77,8 +77,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/dojo-devops/",
@@ -91,8 +91,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/who-am-i/",
@@ -105,8 +105,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/welcome-page/",
@@ -119,8 +119,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/devops-part-2/",
@@ -134,8 +134,8 @@
             "tags": [
                    "devOps"
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         },
         {
             "id": "https://swapnilkumar.in/parallel-love/",
@@ -149,8 +149,8 @@
             "tags": [
                    "medium"
             ],
-            "date_published": "2020-07-15T01:40:27+05:30",
-            "date_modified": "2020-07-15T01:40:27+05:30"
+            "date_published": "2020-07-15T01:42:00+05:30",
+            "date_modified": "2020-07-15T01:42:00+05:30"
         }
     ]
 }
