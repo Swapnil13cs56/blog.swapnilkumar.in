@@ -17,7 +17,7 @@
         <link href="https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/"/>
         <id>https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     Attaching SQL Agent with the Azure virtual machineYour requirement: To rename a Virtual machine having sql configuration (for example a azure sql machine with configuration of SQL Server 2016 with&hellip;
@@ -33,6 +33,9 @@
 <p>I hope you have gone through the previous article, so now you have to perform just one more step or run a single line of script in powershell to add the sql agent to the renamed virtual machine</p>
 <p><em><strong>&gt; New-AzSqlVM -ResourceGroupName "resource-group-nae" -Name "renamed-virtual-machine-name" -Location "location" -LicenseType PAYG</strong></em></p>
 <p>and thats it, you're done.</p>
+<p>
+<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</p>
             ]]>
         </content>
     </entry>
@@ -44,7 +47,7 @@
         <link href="https://swapnilkumar.in/how-to-rename-azure-virtual-machine/"/>
         <id>https://swapnilkumar.in/how-to-rename-azure-virtual-machine/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     How to rename Azure Virtual MachineRenaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no&hellip;
@@ -86,6 +89,9 @@
 <p># Set the name of the new virtual machine<br>$newVMName = 'demo-mail2'<br><br># Initiate a new virtual machine configuration<br>$newVM = New-AzVMConfig -VMName $newVMName -VMSize $oldVM.HardwareProfile.VmSize -Tags $oldVM.Tags<br><br>Next, attach the OS Disk that was previously attached to the old virtual machine to the new one. Use the code below to do that.<br><br># Attach the OS Disk of the old VM to the new VM<br>Set-AzVMOSDisk -VM $newVM -CreateOption Attach -ManagedDiskId $oldVM.StorageProfile.OsDisk.ManagedDisk.Id -Name $oldVM.StorageProfile.OsDisk.Name -Windows<br><br>Now, attach the network interface using this next line of code.<br><br># Attach all NICs of the old VM to the new VM<br>$oldVM.NetworkProfile.NetworkInterfaces | % {Add-AzVMNetworkInterface -VM $newVM -Id $_.Id}<br><br>And finally, attach any data disks that were present in the old VM.<br><br># Attach all Data Disks (if any) of the old VM to the new VM<br>$oldVM.StorageProfile.DataDisks | % {Add-AzVMDataDisk -VM $newVM -Name $_.Name -ManagedDiskId $_.ManagedDisk.Id -Caching $_.Caching -Lun $_.Lun -DiskSizeInGB $_.DiskSizeGB -CreateOption Attach}<br><br>At this point, the new virtual machine specs are packaged in the configuration stored in the $newVM variable. Using this next code snippet will trigger the creation of the new virtual machine.<br><br># Create the new virtual machine<br>New-AzVM -ResourceGroupName $ResourceGroupName -Location $oldVM.Location -VM $newVM</p>
 <p>The creation may take a few minutes to complete.</p>
 <p>For more, you can refer to this <a href="https://www.whatsupgold.com/blog/how-to-rename-an-azure-vm-using-powershell-a-step-by-step-guide" target="_blank" rel="noopener noreferrer">article</a></p>
+<p>
+<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</p>
             ]]>
         </content>
     </entry>
@@ -97,7 +103,7 @@
         <link href="https://swapnilkumar.in/software-testing/"/>
         <id>https://swapnilkumar.in/software-testing/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     Sofware TestingAccording to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the differences between existing and required conditions (that is defects/errors/bugs) and&hellip;
@@ -139,7 +145,7 @@
         <link href="https://swapnilkumar.in/capture-the-flag-just-for-fun/"/>
         <id>https://swapnilkumar.in/capture-the-flag-just-for-fun/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     capture the flag (just for fun) hello friends, you like exploring around and finding solutions? yes this time its more of finding and then working on it to get the&hellip;
@@ -181,7 +187,7 @@
         <link href="https://swapnilkumar.in/my-poems/"/>
         <id>https://swapnilkumar.in/my-poems/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     you were there walking down the isle, i see a beautiful girl with a heart to lift staying low is what i all got keeping myself away not to bother&hellip;
@@ -206,6 +212,7 @@
 </div>
 </div>
 </div>
+<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             ]]>
         </content>
     </entry>
@@ -217,7 +224,7 @@
         <link href="https://swapnilkumar.in/dojo-devops/"/>
         <id>https://swapnilkumar.in/dojo-devops/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     virtual devOps dojo 
@@ -247,7 +254,7 @@
         <link href="https://swapnilkumar.in/who-am-i/"/>
         <id>https://swapnilkumar.in/who-am-i/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     Swapnil KumarSenior Software Engineer (Test) Optimus Information loves to sing (on soundcloud), free motivator (seriously no charge at all 😜), write poems (check it here), articles (on mood, follow on&hellip;
@@ -281,7 +288,7 @@
         <link href="https://swapnilkumar.in/welcome-page/"/>
         <id>https://swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware you on the hot topics of devOps around the world. I will try here to collect and write&hellip;
@@ -307,7 +314,7 @@
         <id>https://swapnilkumar.in/devops-part-2/</id>
             <category term="devOps"/>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
@@ -329,6 +336,9 @@
 <p>its not just a healthy culture in the technology era but you will find devOps around you yourself for sure in life lessons as well</p>
 <p>will catch you real soon with some more realistic technical writings with philosophical thinking.</p>
 <p>read my medium article on parallel love <a href="https://swapnilkumar.in/parallel-love/">here</a></p>
+<p>
+<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</p>
             ]]>
         </content>
     </entry>
@@ -341,7 +351,7 @@
         <id>https://swapnilkumar.in/parallel-love/</id>
             <category term="medium"/>
 
-        <updated>2020-07-15T01:42:00+05:30</updated>
+        <updated>2020-07-15T01:49:46+05:30</updated>
             <summary>
                 <![CDATA[
                     parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
@@ -369,6 +379,7 @@
 </div>
 </div>
 </section>
+<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             ]]>
         </content>
     </entry>
