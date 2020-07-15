@@ -10,6 +10,39 @@
     <id>https://swapnilkumar.in</id>
 
     <entry>
+        <title>what is devops</title>
+        <author>
+            <name>Swapnil Kumar</name>
+        </author>
+        <link href="https://swapnilkumar.in/what-is-devops/"/>
+        <id>https://swapnilkumar.in/what-is-devops/</id>
+
+        <updated>2020-07-16T00:06:08+05:30</updated>
+            <summary>
+                <![CDATA[
+                    What is devOps?Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>What is devOps?</h2>
+<hr>
+<p>Before going into what devOps is I will try to cover how this word is derived. If you can just look at the word "devOps" it certainly looks a combination of dev and Ops. Here dev refers to the <strong>Development </strong>and Ops refers to the <strong>Operations.</strong></p>
+<p>In back days operations department was responsible for the deployment of builds (applications) and there was less or no involvement of the development team members in the deployment process. But there always a syncing problem exists between the developers and the operations team members resulting in extended timeline in the deployment of the build or say build coming under production so that they can be used by the end users. <br><br>What the hell are you talking about? we were still able to perform the deployment in those times too, what devOps changed? <br><br>Perfect question. devOps collaborated the developers to work with operations teams at the same time. What resulted in no syncing issues, if there exists any deployment issues due to some failure happening due to the build provided by the development team, the resolution happens within time making the operations team to deploy the build into production without any extension in the timeline.<br><br>is that it?<br><br>No, its not over yet. devOps can be completely an automated process, how we will learn into coming articles. <br><br>till then, thanks for the read...keep visiting, keep learning <br><br>read the devOps part 2 <a href="https://swapnilkumar.in/devops-part-2/">here</a></p>
+<p>
+<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</p>
+<!-- sk-ads -->
+<p><ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-2493796679704543" data-ad-slot="9179553772" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>attaching sql agent with the azure virtual machine</title>
         <author>
             <name>Swapnil Kumar</name>
@@ -17,7 +50,7 @@
         <link href="https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/"/>
         <id>https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     Attaching SQL Agent with the Azure virtual machineYour requirement: To rename a Virtual machine having sql configuration (for example a azure sql machine with configuration of SQL Server 2016 with&hellip;
@@ -56,7 +89,7 @@
         <link href="https://swapnilkumar.in/how-to-rename-azure-virtual-machine/"/>
         <id>https://swapnilkumar.in/how-to-rename-azure-virtual-machine/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     How to rename Azure Virtual MachineRenaming a virtual machine on Azure is not straight forward as like renaming a folder or file on your local PC. Also there is no&hellip;
@@ -121,7 +154,7 @@
         <link href="https://swapnilkumar.in/software-testing/"/>
         <id>https://swapnilkumar.in/software-testing/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     Sofware TestingAccording to ANSI/IEEE 1059 standard, Testing is defined as the process of analyzing a software item to detect the differences between existing and required conditions (that is defects/errors/bugs) and&hellip;
@@ -172,7 +205,7 @@
         <link href="https://swapnilkumar.in/capture-the-flag-just-for-fun/"/>
         <id>https://swapnilkumar.in/capture-the-flag-just-for-fun/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     capture the flag (just for fun) hello friends, you like exploring around and finding solutions? yes this time its more of finding and then working on it to get the&hellip;
@@ -214,7 +247,7 @@
         <link href="https://swapnilkumar.in/my-poems/"/>
         <id>https://swapnilkumar.in/my-poems/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     you were there walking down the isle, i see a beautiful girl with a heart to lift staying low is what i all got keeping myself away not to bother&hellip;
@@ -258,7 +291,7 @@
         <link href="https://swapnilkumar.in/dojo-devops/"/>
         <id>https://swapnilkumar.in/dojo-devops/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     virtual devOps dojo 
@@ -288,7 +321,7 @@
         <link href="https://swapnilkumar.in/who-am-i/"/>
         <id>https://swapnilkumar.in/who-am-i/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     Swapnil KumarSenior Software Engineer (Test) Optimus Information loves to sing (on soundcloud), free motivator (seriously no charge at all 😜), write poems (check it here), articles (on mood, follow on&hellip;
@@ -322,7 +355,7 @@
         <link href="https://swapnilkumar.in/welcome-page/"/>
         <id>https://swapnilkumar.in/welcome-page/</id>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     hello friends,glad to see you here, the app is basically to aware you on the hot topics of devOps around the world. I will try here to collect and write&hellip;
@@ -333,7 +366,7 @@
                 <h2>hello friends,</h2>
 <p>glad to see you here, the app is basically to aware you on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>
 <p>i will cover the implementation as well with most of the common and uncommon approaches using mostly open source tools. </p>
-<p>so lets start with the first article on devOps <a href="https://swapnilkumar.in/devops/">here</a></p>
+<p>so lets start with the first article on devOps <a href="#non-existing-post-with-id-1">here</a></p>
 <p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>
 <p><a href="https://soundcloud.com/souplazyfeelrecording"><img loading="lazy" src="media/files/soundcloud.png" data-is-external-image="true"  width="40px" height="40px"></a>   <a href="https://medium.com/@swapnilkr"> <img loading="lazy" src="media/files/medium.png" data-is-external-image="true"  width="40px" height="40px"></a>    <a href="https://www.linkedin.com/in/swapnilkr/"><img loading="lazy" src="media/files/linkedin.png" data-is-external-image="true"  width="40px" height="40px"></a></p>
             ]]>
@@ -348,7 +381,7 @@
         <id>https://swapnilkumar.in/devops-part-2/</id>
             <category term="devOps"/>
 
-        <updated>2020-07-15T23:19:53+05:30</updated>
+        <updated>2020-07-16T00:06:08+05:30</updated>
             <summary>
                 <![CDATA[
                     what is devOps ? (Continue...)i hope you are coming after reading this article as here i have explained what exaclty devOps is and why are we going through this process.
@@ -358,7 +391,7 @@
             <![CDATA[
                 <h2>what is devOps ? (Continue...)</h2>
 <hr>
-<p>i hope you are coming after reading <a href="https://swapnilkumar.in/devops/">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this article i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
+<p>i hope you are coming after reading <a href="#non-existing-post-with-id-1">this article</a> as here i have explained what exaclty devOps is and why are we going through this process. in this article i will brief some more information on devOps by depicting some images below so that a good insight can be made on it. </p>
 <h4>so, what challenges does devOps solves?</h4>
 <p>when the teams work separately and by team i mean the dev, QA and the ops, Dev is often unaware of QA and Ops blockers that prevent the program from working as expected, at the other hand QA and Ops are typically working across many features and they have little context of the business purpose and value of the software by this what we see that each group has quite resisting goals which can lead to inefficiency or you can say fingure pointing when something goes wrong. </p>
 <p>and here devOps addresses these challenges by bridging and creating a cross functional teams that shares responsibility of maintaining the system that runs the software.</p>
@@ -382,54 +415,6 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>parallel love</title>
-        <author>
-            <name>Swapnil Kumar</name>
-        </author>
-        <link href="https://swapnilkumar.in/parallel-love/"/>
-        <id>https://swapnilkumar.in/parallel-love/</id>
-            <category term="medium"/>
-
-        <updated>2020-07-15T23:19:53+05:30</updated>
-            <summary>
-                <![CDATA[
-                    parallel love |❤️| The world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <section class="fq fr hk hl hm">
-<div class="n p">
-<div class="z ab ac ae af hn ah ai">
-<h2>parallel love |❤️|</h2>
-<p> </p>
-<p id="e54a" class="jy jz ap bx ka b kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq fq" data-selectable-paragraph=""><strong class="ka kr">The </strong>world is facing a situation of lock down, unlocks, re openings or I would say we are trying to put things back to normal or at least <strong class="ka kr">close to normal</strong>. But you yourself know deep down inside, its never gonna happen. It’s hard to accept right? but I think this is the time we should consider this as what normal is to.</p>
-<figure class="post__image"><img loading="lazy"  src="https://swapnilkumar.in/media/posts/2/parallel-love.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://swapnilkumar.in/media/posts/2/responsive/parallel-love-xs.png 300w ,https://swapnilkumar.in/media/posts/2/responsive/parallel-love-sm.png 480w ,https://swapnilkumar.in/media/posts/2/responsive/parallel-love-md.png 768w ,https://swapnilkumar.in/media/posts/2/responsive/parallel-love-lg.png 1024w ,https://swapnilkumar.in/media/posts/2/responsive/parallel-love-xl.png 1360w ,https://swapnilkumar.in/media/posts/2/responsive/parallel-love-2xl.png 1600w"  alt=""></figure>
-<p id="beda" class="jy jz ap bx ka b kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq fq" data-selectable-paragraph="">many in this world died due to the <a href="https://www.covid19india.org/" class="ct dv kt ku kv kw" target="_blank" rel="noopener nofollow"><strong class="ka kr">COVID</strong></a><strong class="ka kr"> </strong>impact, it was no less and there came news where people lost lives at early ages due to suicide, I am sorry but I have to use the word here, I don’t want to put any negative thoughts in your mind but moving forward I will try to embrace you to what we should achieve and not putting such thoughts whatsoever happens in our lives.</p>
-</div>
-</div>
-</section>
-<hr class="kx fo ky kz cl la jv lb lc ld le lf">
-<section class="fq fr hk hl hm">
-<div class="n p">
-<div class="z ab ac ae af hn ah ai">
-<p id="fb01" class="jy jz ap bx ka b kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq fq" data-selectable-paragraph="">The title <strong class="ka kr">parallel love</strong> sure is hitting you right now, or ringing bells that what I actually want to tell here. it’s no common we love, we love our family, friends and I guess a lot of people. and that’s an amazing part of what love is all about, its no tangible but it is what it is. you feel it, you accept it, many of us eat, drink and dance it, yes I am no kidding here, its no weapon but its a gift we all have we can share any time every time anywhere or everywhere…<em class="lg">Umm am I right on that part?</em> I feel my self ....<em><a href="https://medium.com/@swapnilkr/parallel-love-96adf78fb44e" target="_blank" rel="noopener noreferrer">read more</a></em></p>
-<p data-selectable-paragraph=""> </p>
-</div>
-</div>
-</section>
-<p>
-<script data-ad-client="ca-pub-2493796679704543" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</p>
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- sk-ads --> <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-2493796679704543" data-ad-slot="9179553772" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
             ]]>
         </content>
     </entry>
