@@ -21,8 +21,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/attaching-sql-agent-with-the-azure-virtual-machine/",
@@ -35,8 +35,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/how-to-rename-azure-virtual-machine/",
@@ -49,8 +49,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/software-testing/",
@@ -63,8 +63,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/capture-the-flag-just-for-fun/",
@@ -77,8 +77,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/my-poems/",
@@ -91,8 +91,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/dojo-devops/",
@@ -105,8 +105,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/who-am-i/",
@@ -119,22 +119,22 @@
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/welcome-page/",
             "url": "https://swapnilkumar.in/welcome-page/",
             "title": "welcome page",
             "summary": "hello friends,glad to see you here, the app is basically to aware you on the hot topics of devOps around the world. I will try here to collect and write&hellip;",
-            "content_html": "<h2>hello friends,</h2>\n<p>glad to see you here, the app is basically to aware you on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>\n<p>i will cover the implementation as well with most of the common and uncommon approaches using mostly open source tools. </p>\n<p>so lets start with the first article on devOps <a href=\"#non-existing-post-with-id-1\">here</a></p>\n<p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>\n<p><a href=\"https://soundcloud.com/souplazyfeelrecording\"><img loading=\"lazy\" src=\"media/files/soundcloud.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a>   <a href=\"https://medium.com/@swapnilkr\"> <img loading=\"lazy\" src=\"media/files/medium.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a>    <a href=\"https://www.linkedin.com/in/swapnilkr/\"><img loading=\"lazy\" src=\"media/files/linkedin.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a></p>",
+            "content_html": "<h2>hello friends,</h2>\n<p>glad to see you here, the app is basically to aware you on the hot topics of <strong>devOps</strong> around the world. I will try here to collect and write articles on different devOps issues and technologies related to same.</p>\n<p>i will cover the implementation as well with most of the common and uncommon approaches using mostly open source tools. </p>\n<p>so lets start with the first article on devOps <a href=\"https://swapnilkumar.in/what-is-devops/\">here</a></p>\n<p>if you do like the articles and just thought of following me by chance, please feel free to do so, don't be shy 😜</p>\n<p><a href=\"https://soundcloud.com/souplazyfeelrecording\"><img loading=\"lazy\" src=\"media/files/soundcloud.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a>   <a href=\"https://medium.com/@swapnilkr\"> <img loading=\"lazy\" src=\"media/files/medium.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a>    <a href=\"https://www.linkedin.com/in/swapnilkr/\"><img loading=\"lazy\" src=\"media/files/linkedin.png\" data-is-external-image=\"true\"  width=\"40px\" height=\"40px\"></a></p>",
             "author": {
                 "name": "Swapnil Kumar"
             },
             "tags": [
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         },
         {
             "id": "https://swapnilkumar.in/devops-part-2/",
@@ -148,8 +148,8 @@
             "tags": [
                    "devOps"
             ],
-            "date_published": "2020-07-16T00:06:08+05:30",
-            "date_modified": "2020-07-16T00:06:08+05:30"
+            "date_published": "2020-07-16T20:04:50+05:30",
+            "date_modified": "2020-07-16T20:04:50+05:30"
         }
     ]
 }
